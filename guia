@@ -1,0 +1,23 @@
+projeto-aurora/
+│
+├── index.html                # Página principal
+├── sobre.html                # Página "Quem Somos"
+├── servicos.html             # Página "Nossos Serviços"
+├── contato.html              # Página "Contato"
+│
+├── assets/                   # Pasta para recursos, como imagens e ícones
+│   ├── img/                  # Imagens do site
+│   └── icons/                # Ícones específicos
+│
+├── css/                      # Folhas de estilo
+│   ├── style.css             # Arquivo CSS principal
+│   ├── reset.css             # Reset CSS para normalizar estilos
+│   └── style.scss            # Arquivo SCSS principal
+│
+├── js/                       # Scripts JavaScript
+│   ├── main.js               # JavaScript principal
+│   └── utils/                # Scripts utilitários
+│
+├── fonts/                    # Fontes personalizadas
+│
+└── docs/                     # Documentação do projeto
