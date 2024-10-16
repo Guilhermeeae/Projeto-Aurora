@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Aurora - Consultoria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Projeto Aurora</div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Quem Somos</a></li>
+                    <li><a href="#servicos">Nossos Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Bem-vindo ao Projeto Aurora</h1>
+            <p>Consultoria especializada para transformar o seu negócio.</p>
+            <a href="#contato" class="btn-primary">Fale Conosco</a>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <h2>Quem Somos</h2>
+            <div class="about-content">
+                <p>O Projeto Aurora é uma consultoria que oferece soluções inovadoras para empresas que desejam crescer e se destacar no mercado. Nossa missão é impulsionar o sucesso dos nossos clientes por meio de estratégias personalizadas e eficazes.</p>
+                <img src="assets/img/quem-somos.jpg" alt="Quem Somos - Projeto Aurora">
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossos Serviços -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="assets/img/servico1.jpg" alt="Consultoria de Negócios">
+                    <h3>Consultoria de Negócios</h3>
+                    <p>Orientação especializada para otimizar operações e aumentar a competitividade da sua empresa.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/img/servico2.jpg" alt="Marketing Digital">
+                    <h3>Marketing Digital</h3>
+                    <p>Estratégias de marketing para aumentar sua presença online e atrair mais clientes.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/img/servico3.jpg" alt="Transformação Digital">
+                    <h3>Transformação Digital</h3>
+                    <p>Implementação de tecnologias inovadoras para modernizar processos e melhorar a eficiência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="enviar.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Projeto Aurora. Todos os direitos reservados.</p>
+            <ul class="social-media">
+                <li><a href="#"><img src="assets/icons/facebook.svg" alt="Facebook"></a></li>
+                <li><a href="#"><img src="assets/icons/twitter.svg" alt="Twitter"></a></li>
+                <li><a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
