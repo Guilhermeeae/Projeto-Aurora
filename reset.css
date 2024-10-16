@@ -1,0 +1,116 @@
+/* Reset básico para um design limpo e consistente */
+
+/* Remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remover estilos de lista padrão */
+ul, ol {
+    list-style: none;
+}
+
+/* Remover estilos de texto padrão */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit; /* Herda do elemento pai */
+    font-weight: normal; /* Remove negrito padrão */
+}
+
+/* Definir estilos padrão para parágrafos */
+p {
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Definir estilos padrão para links */
+a {
+    text-decoration: none; /* Remove sublinhado padrão */
+    color: inherit; /* Herda a cor do elemento pai */
+    transition: color 0.3s ease; /* Transição suave para mudança de cor */
+}
+
+a:hover {
+    color: #4CAF50; /* Cor ao passar o mouse */
+}
+
+/* Remover estilos de tabela padrão */
+table {
+    border-collapse: collapse; /* Remove espaço entre as células */
+    width: 100%; /* Tabelas ocupam toda a largura */
+}
+
+/* Remover estilos de botão padrão */
+button, input, textarea {
+    font-family: inherit; /* Herda a fonte do elemento pai */
+    font-size: inherit; /* Herda o tamanho da fonte do elemento pai */
+    border: none; /* Remove bordas padrão */
+    outline: none; /* Remove contorno padrão */
+}
+
+/* Estilizar campos de entrada e botões */
+input, textarea, select {
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: border-color 0.3s ease; /* Transição suave para a cor da borda */
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #4CAF50; /* Borda verde ao focar */
+}
+
+/* Remover estilos de figura padrão */
+img {
+    max-width: 100%; /* Garante que as imagens não excedam a largura do contêiner */
+    height: auto; /* Mantém a proporção */
+}
+
+/* Remover espaços indesejados em formulários */
+fieldset {
+    border: none; /* Remove a borda padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Remover estilos de iframe padrão */
+iframe {
+    border: none; /* Remove borda padrão */
+}
+
+/* Estilo básico para o corpo */
+body {
+    line-height: 1.5; /* Aumenta o espaçamento entre linhas */
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo leve */
+}
+
+/* Estilos para imagens responsivas */
+.responsive-img {
+    width: 100%; /* Imagens ocupam 100% da largura do contêiner */
+    height: auto; /* Mantém a proporção */
+}
+
+/* Para elementos de vídeo */
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo para esconder elementos */
+.hidden {
+    display: none !important; /* Garante que o elemento não seja exibido */
+}
+
+/* Transições gerais */
+.transition {
+    transition: all 0.3s ease; /* Transições suaves para todos os elementos */
+}
